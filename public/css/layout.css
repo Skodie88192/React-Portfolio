@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background2.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -207,8 +207,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 160px;
+   height: 220px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -331,12 +331,17 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 45%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
   	width: 50%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.python {
+  	width: 60%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -347,6 +352,16 @@ ul#nav li.current a { color: #F06000; }
 }
 .html5 {
   	width: 80%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.reactjs {
+  	width: 90%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.reactnative {
+  	width: 90%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
